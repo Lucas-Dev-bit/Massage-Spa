@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header{
+
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 90px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 5px solid transparent;
+}
+
+nav a:hover{
+    border-bottom: 4px solid #fff;
+    transition: .4s;
+}
+
+nav img{
+    max-width: 90px;
+    border-radius: 70%;
+}
+
+/* BANNER */
+
+.bannerGeral{
+    background-image: url(../img/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#banner{
+   
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.bannerCenter{
+    margin: 0 auto;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    cursor: pointer;
+}
+
+.bannerTitle h1{
+    font-size: 77px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.bannerTitle2 h3{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.bannerLink{
+    background-color: red;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.bannerLink a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 10px;
+    padding: 15px;
+    background-color: #ffffff95;
+    color: #fff
+}
+
+.bannerLink a:hover{
+    border: 1px solid;
+    background-color: transparent;
+    transition: .4s;
+}
+
+/* SOBRE */
+
+#sobre{
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.sobre{
+    display: flex;
+    flex: 1;
+}
+
+.sobreImg{
+    flex: 1;
+    background-color: red;
+}
+
+.sobreText{
+    flex: 1;
+    background-color: black;
+}
